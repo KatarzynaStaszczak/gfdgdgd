@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: rgb(31, 190, 31);
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+header>img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(22, 22, 22);
+
+}
+  li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(31, 190, 31);
+    text-align: center;
+    padding: 14px 7px;
+    text-decoration: none;
+    font-size: large;
+    
+}
+li a:hover {
+    background-color: rgb(56, 56, 56);
+    transition: 0.4s;
+  
+}
+ul li {
+    padding-bottom: 1px;
+    position: relative;
+   
+}
+.container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 30px;
+    padding: 0 10px;
+    
+}
+.item {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.body {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*border: 1px solid #2BE331;
+    border-radius: 30px;*/
+    
+}
+.text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+    color: rgb(31, 190, 31);
+    font-size: 50px;
+    line-height: 40px;
+    
+}
+button {
+    margin-top: 20px;
+    height: 70  px;
+    width: auto;
+    font-size: 50px;
+    background-color: rgb(31, 190, 31);
+}
+footer {
+    background-color: rgb(31, 190, 31);
+    color: black;
+    font-size: medium;
+    margin: 0;
+}
+h3 {
+    padding-left: 30px;
+}
+p {
+    ;
+    color: white;
+}
+footer > p {
+    line-height: 5px;
+    padding-left: 40px;
+    color: black;
+}
+.ff {
+    padding-top: 40px;
+    line-height: normal;
+}
+main {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+/*
+ li {
+    border: 1px rgba(255, 255, 255, 0.178) solid;
+}*/
